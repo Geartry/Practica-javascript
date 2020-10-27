@@ -12,13 +12,13 @@ function EventListener(){
 
         var dif1 = pedro - pablo;
 
-        var dif2 = pablo -pedro
+        var dif2 = pablo - pedro;
 
         if(pedro > pablo){
             imprimirmensaje.innerText = "Pedro es el hermano mayor con " + pedro + " años y tienen una diferencia de " + dif1 + " años";
         }
         else if(pedro < pablo){
-            imprimirmensaje.innerText = "Pablo es el hermano mayor con " + pablo + " años y tienen una diferncia de " + dif2 + " años";
+            imprimirmensaje.innerText = "Pablo es el hermano mayor con " + pablo + " años y tienen una diferencia de " + dif2 + " años";
         }
 
     }
