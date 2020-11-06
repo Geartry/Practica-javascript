@@ -21,8 +21,8 @@ function Calculodelpresupuesto(){
     var total = tudinero - sum;
 
     if(total < 0){
-        imprimirpresupuesto.innerText = "El precio esta fuera del presupuesto te falta " + total;
+        imprimirpresupuesto.innerText = "El total fue de " + sum + "por lo que el costo esta fuera del presupuesto te falta " + total;
     }else{
-        imprimirpresupuesto.innerText = "El precio esta dentro del presupuesto te sobra " + total;
+        imprimirpresupuesto.innerText = "El total fue de " + sum + "por lo que el costo esta dentro del presupuesto te sobra " + total;
     }
 }
