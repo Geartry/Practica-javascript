@@ -69,7 +69,7 @@ function Calcularprecio(){
         imprimir.innerText = "El costo de su plan seria de $" + total
     }
 
-
+    // < 40
 
     if(plan == 1 && alcohol == 4 && lentes == 7 && enfermedad == 10 && edad < 40){
         sum = prf + alcohol1 + lentes1 + edad2 + enfermedad1;
