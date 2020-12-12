@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Objetos en local storage</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="container">
+          <div class="jumbotron">
+              <h1 class="text-center">Persona</h1>
+              <button type="button" name="" id="guapersona" onclick="GuardarPersona()" class="btn btn-primary" btn-lg btn-block">
+                Guardar persona
+              </button>
+              <button type="button" name="" id="obpersona" onclick="ObtenerPersona()" class="btn btn-primary" btn-lg btn-block">
+                Obtener persona
+              </button>
+              <div class="alert alert-success" role="alert" id="impnombre"></div>
+              <div class="alert alert-danger" role="alert" id="impedad"></div>
+              <div class="alert alert-warning" role="alert" id="impgenero"></div>
+              <div class="alert alert-info" role="alert" id="impnacionalidad"></div>
+          </div>
+
+          <div class="jumbotron">
+            <h1 class="text-center">Comida</h1>
+            <button type="button" name="" id="guacomida" onclick="GuardarComida()" class="btn btn-primary" btn-lg btn-block">
+              Guardar comida
+            </button>
+            <button type="button" name="" id="obcomida" onclick="ObtenerComida()" class="btn btn-primary" btn-lg btn-block">
+              Obtener comida 
+            </button>
+            <div class="alert alert-success" role="alert" id="impmexicana"></div>
+            <div class="alert alert-danger" role="alert" id="impespañola"></div>
+            <div class="alert alert-warning" role="alert" id="impfrancesa"></div>
+            <div class="alert alert-info" role="alert" id="impitaliana"></div>
+            <div class="alert alert-dark" role="alert" id="impamericana"></div>
+          </div>
+
+          <div class="jumbotron">
+            <h1 class="text-center">Peliculas</h1>
+            <button type="button" name="" id="guapelicula" onclick="GuardarPelicula()" class="btn btn-primary" btn-lg btn-block">
+              Guardar peliculas
+            </button>
+            <button type="button" name="" id="obpelicula" onclick="ObtenerPelicula()" class="btn btn-primary" btn-lg btn-block">
+              Obtener peliculas
+            </button>
+            <div class="alert alert-success" role="alert" id="impterror"></div>
+            <div class="alert alert-danger" role="alert" id="impcomedia"></div>
+            <div class="alert alert-warning" role="alert" id="impficcion"></div>
+            <div class="alert alert-info" role="alert" id="impromance"></div>
+          </div>
+
+          <div class="jumbotron">
+            <h1 class="text-center">Musica</h1>
+            <button type="button" name="" id="guamusica" onclick="GuardarMusica()" class="btn btn-primary" btn-lg btn-block">
+              Guardar musica
+            </button>
+            <button type="button" name="" id="obmusica" onclick="ObtenerMusica()" class="btn btn-primary" btn-lg btn-block">
+              Obteber musica
+            </button>
+            <div class="alert alert-success" role="alert" id="improck"></div>
+            <div class="alert alert-danger" role="alert" id="imppop"></div>
+            <div class="alert alert-warning" role="alert" id="imphiphop"></div>
+            <div class="alert alert-info" role="alert" id="impreggaeton"></div>
+          </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <script src="../js/objetos en local storage.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

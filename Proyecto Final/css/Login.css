@@ -1,0 +1,21 @@
+body{
+    background: deepskyblue;
+}
+
+.container img{
+    width: 20%;
+    position: relative;
+    left: 40%;
+}
+
+.container > button{
+    width: 25%;
+    height: 7vh;
+    position: relative;
+    left: 37%;
+    
+}
+
+.container > button:hover{
+    background: red;
+}

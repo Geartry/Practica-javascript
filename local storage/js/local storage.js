@@ -1,5 +1,5 @@
 function LocalStorage(){
-
+    //utiliza la palabra reservada localstorage y para guardar la informacion es con setitem("key", "value");
     localStorage.setItem("Nombre", "Vladimir Esquivel");
     localStorage.setItem("Numero", 30)
     localStorage.setItem("booleano", true)
@@ -15,5 +15,29 @@ function LocalStorage(){
 
     localStorage.setItem("Objeto", JSON.stringify(ropa));
 
+    // imprimo en consola la clave que yo tengo en el localstorage
     console.log(localStorage.getItem("Nombre"));
+
+    // removeitem
+    // del localstorage booro la informacion con la llave Numeroa
+    localStorage.removeItem("Numeroa");
+
+    // del localstorage se boora toda la informcion
+    localStorage.clear();
+
+    var usuario = {
+        nombre: "Vladimir",
+        edad: 20,
+        nacionalidad: "Mexicana"
+    };
+
+    // guardo el objeto en el local storge, con el formato JSON.stringfy
+    // JSON.stringify se utiliza para darle formato al objeto y por guardarloen el localstorage
+    localStorage.setItem("Usuario1", JSON.stringify(usuario))
+
+    // JSON.parse - Es un formato  
+
+    console.log(JSON.parse(localStorage.getItem("Usuario1")));
+
+
 }

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Sign in</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="../css/Sign in.css"></script>
+  </head>
+  <body>
+      <div class="container">
+          <div class="jumbotron">
+              <div>
+                  <link rel="stylesheet" href="../img/usuario.png">
+              </div>
+              <h1 class="text-center">Sign in</h1>
+              <div class="form-group">
+                <label for=""></label>
+                <input type="text"
+                  class="form-control" name="" id="user" aria-describedby="helpId" minlength="5" maxlength="10" required
+                  placeholder="Username">
+              </div>
+              <div class="form-group">
+                <label for=""></label>
+                <input type="password"
+                  class="form-control" name="" id="contraseña" aria-describedby="helpId" minlength="8" maxlength="10" required
+                  placeholder="Password">
+              </div>
+              <div class="fila">
+                <div class="form-check">
+                    <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+                    Remember me
+                    </label>
+                </div>
+                <link rel="stylesheet" href="../html/Forgot Pasword.html">Forgot Password
+              </div>
+              <button type="button" name="" id="login" onclick="Login()" class="btn btn-primary" btn-lg btn-block">
+                  login
+              </button>
+              <button type="button" name="" id="obtener" onclick="Obtener()" class="btn btn-primary" btn-lg btn-block">
+                  Obtener local storage 
+              </button>
+              <div class="alert alert-dark" role="alert" id="impobtenido">
+                
+              </div>
+          </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <script src="../js/Sign in.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

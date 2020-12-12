@@ -1,0 +1,62 @@
+.nav2 > .navbar-nav{
+    display: flex;
+   
+}
+
+.nav2 > .navbar-nav > a{
+    margin-top: 10%;
+    position: relative;
+    left: 20%;
+}
+
+.contorno{
+    border: solid 1px black;
+    width: 28.85%;
+    margin-left: 17%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.contorno2{
+    border: solid 1px black;
+    width: 28.85%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.fila2{
+  display: flex;  
+}
+
+.fila2 > .contorno > .texto{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+.fila2 > .contorno > .texto > a{
+    text-decoration: none;
+    color: black;
+}
+
+.fila2 > .contorno > .texto > a:hover{
+    color: blueviolet;
+}
+
+.fila2 > .contorno2 > .texto{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+.fila2 > .contorno2> .texto > a{
+    text-decoration: none;
+    color: black;
+}
+
+.fila2 > .contorno2 > .texto > a:hover{
+    color: blueviolet;
+}
